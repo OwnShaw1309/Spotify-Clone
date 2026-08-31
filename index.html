@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+
+</head>
+
+<body>
+    <div class="main_container">
+        <div class="container1">
+            <div class="subcontainer1 rounded bg_grey">
+                <div class="close"><img src="svg/close.svg" alt=""></div>
+                <div class="logo "><img class="invert" src="svg/logo.svg" alt=""></div>
+                <div class="home"><img class="invert" src="svg/home.svg" alt="">Home</div>
+                <div class="search"><img class="invert" src="svg/search.svg" alt="">Search</div>
+            </div>
+            <div class="subcontainer2 rounded bg_grey">
+                <div class="library"><img class="invert" src="svg/library.svg" alt="">Your Library</div>
+                <div class="songlist">
+                    <ul>
+
+                        <!-- <div class="playcard">
+                                <div class="music">
+                                    <img class="invert " src="svg/music.svg" alt=""></img>
+                                    <div class="musicname">Music Name</div>
+                                </div>
+                                <div class="playb">
+                                    <img src="svg/play.svg" alt="" class="msg invert">
+                                </div>
+                            </div> -->
+
+
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+        <div class="container2 rounded bg_grey">
+            <div class="header">
+                <div class="hamburger ">
+                    <button><img src="svg/hamburger.svg" alt=""></button>
+                </div>
+                <div class="buttons">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        color="currentColor" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M15 18C15 18 9.00001 13.5811 9 12C8.99999 10.4188 15 6 15 6"></path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        color="currentColor" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M9.00005 18C9.00005 18 15 13.5811 15 12C15 10.4188 9 6 9 6"></path>
+                    </svg>
+                </div>
+                <div class="nav">
+                    <button class="SignUp">SignUp</button>
+                    <button class="Login">Login</button>
+                </div>
+            </div>
+            <div class="scroll">
+                <div class="tex">Spotify Playlists</div>
+                <div class="playlist">
+
+                    <div data-folder="songs/songs2" class="card">
+
+                        <svg class="pl" width="16" height="16" viewBox="0 0 24 24" fill="black"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 20V4L19 12L5 20Z" stroke="#141834" stroke-width="1.5" stroke-linejoin="round" />
+
+                        </svg>
+
+
+                        <img src="svg/happyhits.jpg" alt="" class="hits">
+                        <h3>Happy Hits!</h3>
+                        <p>Hits to oost your mood and fill you with ...</p>
+                    </div>
+                    
+                    <div data-folder="songs/ncs" class="card">
+                        <svg class="pl" width="16" height="16" viewBox="0 0 24 24" fill="black"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 20V4L19 12L5 20Z" stroke="#141834" stroke-width="1.5" stroke-linejoin="round" />
+
+                        </svg>
+
+
+                        <img src="svg/happyhits.jpg" alt="" class="hits">
+                        <h3>Happy Hits!</h3>
+                        <p>Hits to oost your mood and fill you with ...</p>
+                    </div>
+                   
+
+                </div>
+
+                </div>
+                
+            </div>
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="circle"></div>
+                </div>
+                <div class="burg">
+
+                    <div class="songinfo"></div>
+                    <div class="navbuttons ">
+                        <button class="prev"><img src="svg/prevsong.svg" alt=""></button>
+                        <button class="play"><img src="svg/play.svg" alt=""></button>
+                        <button class="next"><img src="svg/nextsong.svg" alt=""></button>
+                    </div>
+                    <div class="volt">
+                        <div class="songtime"></div>
+                        <div class="volume">
+                            <button class="vol"><img src="svg/volume.svg" alt=""></button>
+                            <div class="range">
+                                <input type="range" min="0" max="100" value="50" class="slider" id="myRange">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </body>
+        <script src="script.js"></script>
+
+</html>
